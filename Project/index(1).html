@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GROUP 10</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+  </head>
+  <body>
+    <div id="show_cart" class="show_cart_container">
+      <span class="iconify" data-icon="bx:bxs-cart-alt"></span>
+    </div>
+    <div class="enter-name-popUp">
+      <div id="save_name" class="save_names">
+        <input type="text" id="name-input" placeholder="Input Your Name" />
+      </div>
+      <div id="save" class="saves">
+        <button id="btn-enter-name">Save</button>
+      </div>
+    </div>
+    <div class="shopping_cart">
+      <h2>Your cart</h2>
+      <div class="remove_icon">
+        <span class="iconify" data-icon="carbon:trash-can"></span>
+      </div>
+      <div class="cart_container">
+        <div class="cart_item">
+          <img
+            alt=""
+            src="https://img.bestrecipes.com.au/Iz_tFerq/br/2019/10/spiced-lamb-sausage-fattoush-954624-1.jpg"
+          />
+          <div>
+            <h3>Name</h3>
+            <h3>Amount</h3>
+            <h3>Price</h3>
+          </div>
+        </div>
+      </div>
+      <div class="summary_price"></div>
+    </div>
+    <div class="container">
+      <h1>GROUP 10 FOOD PRODUCT LIST</h1>
+      <h1 id="name_value"></h1>
+      <div class="event_container">
+        <div class="seaching">
+          <h2>Search Products</h2>
+          <input id="input_search" placeholder="Input name" />
+          <button id="search_btn">Search</button>
+        </div>
+      </div>
+      <div class="food_container"></div>
+    </div>
+  </body>
+  <script src="/main(1).js" type="module"></script>
+</html>
