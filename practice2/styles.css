@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto';
+    color: black;
+}
+
+h2{
+    font-family: 'Roboto';
+    color: rgb(82, 82, 82);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:  50px;
+    padding-bottom: 100px;
+}
+
+.add-cart {
+    background-color: rgb(150, 208, 235);
+    color: black;
+}
